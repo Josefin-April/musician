@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musician</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon-16x16.png">
+    <script src="https://kit.fontawesome.com/fb2026e487.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <a href="#Work" class="active">Home</a>
+        <a href="#Services">News</a>
+        <a href="#Contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-ellipsis-h"></i>
+        </a>
+    </nav>
+<section>
+    <div>
+        <h1>Musician</h1>
+        <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis 
+            nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
+    </div>
+    <img src="images/desktop.svg" alt="person">
+</section>    
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
